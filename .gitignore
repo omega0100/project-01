@@ -28,3 +28,16 @@ node_modules/
 *.crt
 .env
 
+# Ansible virtual environment
+.ansible-env/
+
+# Helm & Kubernetes sensitive files
+ansible-monitoring-aks/values-grafana.yaml
+ansible-monitoring-aks/values-prometheus.yaml
+ansible-monitoring-aks/grafana-password-sync.yaml
+ansible-monitoring-aks/deploy-monitoring.yml
+
+# Kubernetes secrets
+secrets/
+*.secret.yaml
+
